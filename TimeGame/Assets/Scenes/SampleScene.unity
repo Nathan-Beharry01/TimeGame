@@ -687,7 +687,12 @@ PrefabInstance:
     - target: {fileID: 7934799209599098102, guid: 187d97c481dd141459ae7994351c52a6,
         type: 3}
       propertyPath: extraGravity
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7934799209599098102, guid: 187d97c481dd141459ae7994351c52a6,
+        type: 3}
+      propertyPath: crouchSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7934799209599098103, guid: 187d97c481dd141459ae7994351c52a6,
         type: 3}

@@ -116,7 +116,7 @@ public class movementController : MonoBehaviour
         rb.velocity = new Vector3(vectorTest.x, 0f, vectorTest.z)+ Vector3.up * rb.velocity.y;
 
         //control our speed based on our movement state
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && !crouching)
         {
             speed = runSpeed;
         }
