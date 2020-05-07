@@ -2,20 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class loottable : MonoBehaviour
+public class LootTable : MonoBehaviour
 {
-    public int[] table = {
-        60,
-        30,
-        10
-    };
+    public int[] table = { 60, 50, 30 };
     // Start is called before the first frame update
-    public int total;
-    private void Start()
+    void Start()
     {
-        /*foreach (var item in table)
-        {
-            total += item;
-        }*/
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
